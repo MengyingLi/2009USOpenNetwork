@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body {
+	height: 100%;
+	font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;
+	}
+
+    #HeadImage{
+	position:absolute;
+	top:72px;
+	left:1053px;
+	width:30px;
+	height:30px;
+	}
+
+     #button {
+	position: absolute;
+	z-index: 1;
+	font-size: 12px;
+	font-weight: bold;
+	font-family:nyt-franklin,nyt-franklin-1,'Helvetica Neue',Arial,sans-serif;
+	color: #c7e9c0;
+	text-decoration:none;
+	text-shadow: 0 1px 0 #fff;
+	top: 545px;
+	left: 798px;
+	text-align: center;
+	height: 36px;
+	width: 130px;
+			}
+			.fsSubmitButton{
+	padding: 10px 20px 11px !important;
+	font-size: 18px !important;
+	background-color: #c7e9c0;
+	font-weight: bold;
+	text-shadow: 1px 1px #edf8e9;
+	color: #005a32;
+	border-radius: 20px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border: 1px solid #edf8e9;
+	cursor: pointer;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+	
+     #FootImage{
+	position:absolute;
+	top:592px;
+	Left:1042px;
+	width: 242px;
+	height: 163px;
+        }
+		
+     #SideText{
+	position: absolute;
+	display: block;
+	font-size: 15px;
+	color: #474747;
+	top: 57px;
+	left: 1039px;
+	width: 240px;
+	height: 817px;
+		}
+		.sideTitle{
+			text-align:center;
+			font-size: 18px;
+		   text-shadow: 0 1px 0 #fff;
+		   fill: #474747;
+		   font-weight: bold;
+		}
+		
+	#owner{
+	position: absolute;
+	z-index: 1;
+	display: block;
+	font-weight: 300;
+	text-shadow: 0 1px 0 #fff;
+	top: 787px;
+	left: 1045px;
+	text-align: left;
+	color: #474747;
+	padding-bottom: 20px;
+	font-family:nyt-franklin,nyt-franklin-1,'Helvetica Neue',Arial,sans-serif;
+	font-size: 10px;
+	width: 237px;
+	height: 45px;
+		}
+	
+	#viz{
+		position: absolute;
+	font-size: 12px;
+	color: #474747;
+	left:20px;
+	top:20px;
+	width: 1000px;
+	height: 800px;
+	}
+		
